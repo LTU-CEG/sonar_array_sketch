@@ -51,7 +51,7 @@ long ping_sonar(int pingPin)
   digitalWrite(pingPin, LOW);
   delayMicroseconds(2);
   digitalWrite(pingPin, HIGH);
-  delayMicroseconds(5);
+  delayMicroseconds(10);
   digitalWrite(pingPin, LOW);
   pinMode(pingPin, INPUT);
   
